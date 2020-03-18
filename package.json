@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_relational-database_sql",
+  "version": "1.0.0",
+  "description": "Project developed to strengthen knowledge in NodeJS, improve the architecture and scalability of the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfrancobedoya/NodeJS_Relational-Database_SQL.git"
+  },
+  "author": "Cristian Franco Bedoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cfrancobedoya/NodeJS_Relational-Database_SQL/issues"
+  },
+  "homepage": "https://github.com/cfrancobedoya/NodeJS_Relational-Database_SQL#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

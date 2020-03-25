@@ -20,7 +20,6 @@ function list(req, res) {
         .catch((err) => {
             response.error(req, res, err.message, 500);
         });
-    
 }
 
 function get(req, res) {
@@ -31,7 +30,6 @@ function get(req, res) {
         .catch((err) => {
             response.error(req, res, err.message, 500);
         });
-    
 }
 
 function upsert(req, res) {

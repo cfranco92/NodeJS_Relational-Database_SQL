@@ -25,3 +25,8 @@ $ npm i swagger-ui-express
 ```
 $ npm i jsonwebtoken
 ```
+
+## bcrypt
+```
+$ npm i bcrypt
+```

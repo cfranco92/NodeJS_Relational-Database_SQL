@@ -20,3 +20,8 @@ $ npm i nanoid
 ```
 $ npm i swagger-ui-express
 ```
+
+## jsonwebtoken
+```
+$ npm i jsonwebtoken
+```

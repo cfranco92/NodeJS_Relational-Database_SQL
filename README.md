@@ -11,22 +11,27 @@ $ npm i express
 $ npm i body-parser
 ```
 
-## Nanoid
+## Nanoid - Create id
 ```
 $ npm i nanoid
 ```
 
-## swagger-ui-express
+## swagger-ui-express - Documentation
 ```
 $ npm i swagger-ui-express
 ```
 
-## jsonwebtoken
+## jsonwebtoken - Create tokens
 ```
 $ npm i jsonwebtoken
 ```
 
-## bcrypt
+## bcrypt - Encrypt password
 ```
 $ npm i bcrypt
+```
+
+# mysql - Connect database
+```
+$ npm i mysql
 ```

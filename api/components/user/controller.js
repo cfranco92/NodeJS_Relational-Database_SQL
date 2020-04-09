@@ -6,7 +6,7 @@ const TABLE = 'user';
 module.exports = function(injectedStore) {
     let store = injectedStore;
     if (!store ) {
-        store = require('../../../store/dummy');
+        store = require('../../../store/mysql');
     }
 
     function list() {
@@ -40,9 +40,17 @@ module.exports = function(injectedStore) {
         return store.upsert(TABLE, user);
     }
 
+    function follow(from, to) {
+        return store.upsert(TABLE + '_follow' , {
+            user_from: from,
+            user_to: to
+        });
+    }
+
     return {
         list,
         get,
-        upsert
+        upsert,
+        follow
     }
 }

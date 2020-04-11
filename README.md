@@ -35,3 +35,8 @@ $ npm i bcrypt
 ```
 $ npm i mysql
 ```
+
+# request - Remote database
+```
+$ npm i request
+```

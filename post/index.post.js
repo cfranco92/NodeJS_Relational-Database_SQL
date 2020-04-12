@@ -15,5 +15,5 @@ app.use('/api/post', post);
 app.use(errors);
 
 app.listen(config.post.port, () => {
-    console.log('POST SERVICE LISTENING ON THE PORT ', config.post.port);
+    console.log('POST SERVICE listening on the port ', config.post.port);
 });

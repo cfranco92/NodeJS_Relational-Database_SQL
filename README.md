@@ -31,12 +31,12 @@ $ npm i jsonwebtoken
 $ npm i bcrypt
 ```
 
-# mysql - Connect database
+## mysql - Connect database
 ```
 $ npm i mysql
 ```
 
-# request - Remote database
+## request - Remote database
 ```
 $ npm i request
 ```
@@ -91,4 +91,19 @@ $ pm2 start mysql/index.js --name api-mysql
 ```
 ```
 $ pm2 restart 3
+```
+---
+## NOW
+```
+$ npm i -g now
+```
+
+## NOW LOGS EXAMPLE
+```
+https://node-js-relational-database-sql.now.sh/_logs
+```
+
+## DEPLOY NOW
+```
+$ now
 ```

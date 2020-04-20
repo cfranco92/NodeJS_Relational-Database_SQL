@@ -107,3 +107,8 @@ https://node-js-relational-database-sql.now.sh/_logs
 ```
 $ now
 ```
+
+## LOCAL NOW
+```
+$ now dev
+```

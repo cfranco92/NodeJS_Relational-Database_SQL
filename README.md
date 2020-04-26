@@ -112,3 +112,6 @@ $ now
 ```
 $ now dev
 ```
+
+## Install Redis
+$ npm i redis

@@ -167,3 +167,28 @@ $ pm2 start api/index.js
 ```
 $ pm2 start post/index-post.js
 ```
+```
+$ sudo apt-get install nginx
+```
+```
+$ sudo service nginx start
+```
+```
+$ sudo nano /etc/nginx/sites-available/default
+```
+```
+    location /api/user {
+        proxy_pass http://localhost:3000;
+    }
+
+    localtion /api/auth {
+        proxy_pass http://localhost:3000,
+    }
+
+    location /api/post {
+        proxy_pass http://localhost:3002
+    }
+```
+```
+$ sudo service nginx restart
+```

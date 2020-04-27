@@ -115,3 +115,52 @@ $ now dev
 
 ## Install Redis
 $ npm i redis
+
+## Deploying Node services
+```
+```
+```
+$ cd ~
+```
+```
+$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+```
+```
+$ sudo bash nodesource_setup.sh
+```
+```
+$ sudo apt-get install -y nodejs
+```
+```
+$ nodejs -v
+```
+```
+$ sudo apt-get install git
+```
+```
+$ sudo npm install -g pm2
+```
+```
+$ git clone [project_URL]
+```
+```
+$ rm nodesource_setup.sh
+```
+```
+$ cd [PROJECT_NAME]
+```
+```
+$ npm install
+```
+```
+$ pm2 status
+```
+```
+$ pm2 start mysql/index-mysql.js
+```
+```
+$ pm2 start cache/index-cache.js
+```
+```
+$ pm2 start api/index.js
+```

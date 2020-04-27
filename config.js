@@ -15,6 +15,10 @@ module.exports = {
         password: process.env.MYSQL_PASS || 'WnUr7FDjix',
         database: process.env.MYSQL_DB || 'WiZmuTSt3O',
     },
+    mysqlService: {
+        host: process.env.MYSQL_SRV_HOST || 'localhost',
+        port: process.env.MYSQL_SRV_PORT || 3001,
+    },
     cacheService: {
         host: process.env.CACHE_SRV_HOST || 'localhost',
         port: process.env.CACHE_SRV_PORT || 3003

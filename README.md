@@ -164,3 +164,6 @@ $ pm2 start cache/index-cache.js
 ```
 $ pm2 start api/index.js
 ```
+```
+$ pm2 start post/index-post.js
+```
